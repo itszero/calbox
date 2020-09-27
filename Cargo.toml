@@ -1,0 +1,10 @@
+[package]
+name = "calbox"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+chrono = { version = "0.4", features = ["serde"] }
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
